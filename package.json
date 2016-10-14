@@ -1,0 +1,24 @@
+{
+    "name": "callback-promisify",
+    "version": "0.1.0",
+    "description": "Converting Callbacks to Promises",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/VanishingDante/Promisify.git"
+    },
+    "keywords": [
+        "promisify",
+        "callback",
+        "promise"
+    ],
+    "author": "vanis",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/VanishingDante/Promisify/issues"
+    },
+    "homepage": "https://github.com/VanishingDante/Promisify#readme"
+}
