@@ -1,24 +1,30 @@
 {
-    "name": "callback-promisify",
-    "version": "0.1.1",
-    "description": "Converting Callbacks to Promises",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/VanishingDante/Promisify.git"
-    },
-    "keywords": [
-        "promisify",
-        "callback",
-        "promise"
-    ],
-    "author": "vanis",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/VanishingDante/Promisify/issues"
-    },
-    "homepage": "https://github.com/VanishingDante/Promisify#readme"
+  "name": "callback-promisify",
+  "version": "0.1.1",
+  "description": "Converting Callbacks to Promises",
+  "main": "index-compiled.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VanishingDante/Promisify.git"
+  },
+  "keywords": [
+    "promisify",
+    "callback",
+    "promise"
+  ],
+  "author": "vanis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VanishingDante/Promisify/issues"
+  },
+  "homepage": "https://github.com/VanishingDante/Promisify#readme",
+  "devDependencies": {
+    "babel-preset-es2017": "^6.16.0",
+    "babel": "^6.5.2",
+    "babel-cli": "^6.16.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.16.0"
+  }
 }
